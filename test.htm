@@ -1,0 +1,22 @@
+<link rel="stylesheet" type="text/css" href="popup.css">
+
+<script src="trie.js"></script>
+<script src="background.js"></script>
+<script src="select.js"></script>
+<script src="test.js"></script>
+
+<button id=load>load bookmarks</button><br>
+<textarea id=words rows=15 oninput="upd()">
+vova
+vova/11
+vova/22
+voga
+voga/er
+asdf
+11
+22
+er
+</textarea><br>
+<input id="prefix" type="text" autofocus="autofocus">
+<pre style="color: red" id="last"></pre>
+<div id="output"></div>
